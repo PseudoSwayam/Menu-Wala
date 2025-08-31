@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Wala</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bg-primary': '#011627',
+              'bg-secondary': '#010C15',
+              'bg-tertiary': '#0d1b2a',
+              'bg-quaternary': '#1b263b',
+              'border-primary': 'rgba(110, 128, 152, 0.2)',
+              'text-primary': '#E0E0E0',
+              'text-secondary': '#607B96',
+              'text-accent': '#4D5BCE',
+              'accent-orange': '#FEA55F',
+              'accent-teal': '#43D9AD',
+              'accent-pink': '#E99287',
+              'accent-purple': '#5565E0',
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-in-out',
+              'animated-gradient': 'animated-gradient 15s ease infinite',
+              'blob': 'blob 7s infinite alternate',
+              'marquee-diagonal': 'marquee-diagonal 15s linear infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: 0, transform: 'translateY(10px)' },
+                '100%': { opacity: 1, transform: 'translateY(0)' },
+              },
+              'animated-gradient': {
+                  '0%': { 'background-position': '0% 50%' },
+                  '50%': { 'background-position': '100% 50%' },
+                  '100%': { 'background-position': '0% 50%' },
+              },
+              blob: {
+                  '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                  '33%': { transform: 'translate(30px, -50px) scale(1.2)' },
+                  '66%': { transform: 'translate(-20px, 20px) scale(0.8)' },
+                  '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              'marquee-diagonal': {
+                '0%': { transform: 'translate(0, 0)' },
+                '100%': { transform: 'translate(-50%, -50%)' },
+              }
+            },
+            backgroundSize: {
+                '300': '300% 300%',
+            }
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.542.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.8.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-bg-primary" style="overflow-y: hidden;">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+{
+  "menuItems": [
+    {
+      "id": "app001",
+      "name": "Paneer Tikka",
+      "description": "Grilled cottage cheese marinated in yogurt and spices",
+      "price": 280,
+      "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+      "category": "appetizers",
+      "isVeg": true,
+      "isSpicy": true
+    },
+    {
+      "id": "app002", 
+      "name": "Chicken 65",
+      "description": "Spicy deep-fried chicken with curry leaves and green chilies",
+      "price": 320,
+      "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+      "category": "appetizers",
+      "isVeg": false,
+      "isSpicy": true
+    },
+    {
+      "id": "app003",
+      "name": "Samosa Chat",
+      "description": "Crispy samosas topped with yogurt, chutneys and spices",
+      "price": 180,
+      "image": "https://images.pexels.com/photos/14737853/pexels-photo-14737853.jpeg",
+      "category": "appetizers",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "main001",
+      "name": "Paneer Butter Masala",
+      "description": "Rich and creamy tomato-based curry with cottage cheese",
+      "price": 380,
+      "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg",
+      "category": "main-course",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "main002",
+      "name": "Butter Chicken",
+      "description": "Tender chicken in rich tomato and cream gravy",
+      "price": 420,
+      "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+      "category": "main-course",
+      "isVeg": false,
+      "isSpicy": false
+    },
+    {
+      "id": "main003",
+      "name": "Dal Tadka",
+      "description": "Yellow lentils tempered with cumin and aromatic spices",
+      "price": 220,
+      "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+      "category": "main-course",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "main004",
+      "name": "Biryani",
+      "description": "Fragrant basmati rice with tender meat and aromatic spices",
+      "price": 480,
+      "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg",
+      "category": "main-course",
+      "isVeg": false,
+      "isSpicy": true
+    },
+    {
+      "id": "bread001",
+      "name": "Butter Naan",
+      "description": "Soft leavened bread brushed with butter",
+      "price": 80,
+      "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+      "category": "breads",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "bread002",
+      "name": "Garlic Naan",
+      "description": "Naan topped with fresh garlic and herbs",
+      "price": 100,
+      "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+      "category": "breads",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "bread003",
+      "name": "Tandoori Roti",
+      "description": "Whole wheat bread cooked in tandoor",
+      "price": 60,
+      "image": "https://images.pexels.com/photos/14737853/pexels-photo-14737853.jpeg",
+      "category": "breads",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "rice001",
+      "name": "Jeera Rice",
+      "description": "Fragrant basmati rice with cumin seeds",
+      "price": 180,
+      "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg",
+      "category": "rice",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "rice002",
+      "name": "Coconut Rice",
+      "description": "South Indian style rice with coconut and curry leaves",
+      "price": 200,
+      "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+      "category": "rice",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "sweet001",
+      "name": "Gulab Jamun",
+      "description": "Soft milk dumplings in sugar syrup",
+      "price": 120,
+      "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+      "category": "sweets",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "sweet002",
+      "name": "Kulfi",
+      "description": "Traditional Indian ice cream with cardamom and pistachios",
+      "price": 100,
+      "image": "https://images.pexels.com/photos/14737853/pexels-photo-14737853.jpeg",
+      "category": "sweets",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "sweet003",
+      "name": "Ras Malai",
+      "description": "Soft cheese dumplings in sweet cardamom milk",
+      "price": 140,
+      "image": "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg",
+      "category": "sweets",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "drink001",
+      "name": "Mango Lassi",
+      "description": "Creamy yogurt drink with fresh mango",
+      "price": 120,
+      "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+      "category": "drinks",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "drink002",
+      "name": "Masala Chai",
+      "description": "Traditional spiced tea with milk",
+      "price": 40,
+      "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+      "category": "drinks",
+      "isVeg": true,
+      "isSpicy": false
+    },
+    {
+      "id": "drink003",
+      "name": "Fresh Lime Water",
+      "description": "Refreshing lime water with mint",
+      "price": 60,
+      "image": "https://images.pexels.com/photos/14737853/pexels-photo-14737853.jpeg",
+      "category": "drinks",
+      "isVeg": true,
+      "isSpicy": false
+    }
+  ]
+}
